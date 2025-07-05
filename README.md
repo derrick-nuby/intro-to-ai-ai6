@@ -13,6 +13,7 @@ This course is designed to provide a hands-on, weekly introduction to key ML con
 ## Weekly Topics
 
 - [Week 01: Machine Learning Landscape](lectures/w01_ml_landscape/)
+- [Week 02: Training Machine Learning Algorithms for Classification](lectures/w02_simple_ml_classification/)
 - ...
 
 ## Assignments
