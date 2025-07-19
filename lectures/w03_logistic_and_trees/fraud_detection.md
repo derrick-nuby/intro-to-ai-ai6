@@ -167,7 +167,7 @@ train.shape, test.shape
 # TODO
 ```
 **Bonus**:
-- Evaluate your model using an appropriate metric (like AUC or accuracy)
+- Evaluate your model using the **AUC** metric
 - Don’t forget to tune your hyperparameters!
 
 ```python
@@ -183,11 +183,12 @@ train.shape, test.shape
 - Format your predictions according to `SampleSubmission.csv`
 
 ```python
-sub_client_id = test['client_id']
+sample_sub = pd.read_csv("SampleSubmission.csv")
+sub_client_id = sample_sub['client_id']
 submission = pd.DataFrame(
     {
         'client_id': sub_client_id,
-        'target': preds['target'] # assuming your predictions are saved in the `preds` variable. Feel free to change this if otherwise
+        'target': preds # assuming your predictions are saved in the `preds` variable. Feel free to change this if otherwise
     }
 )
 
