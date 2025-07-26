@@ -15,6 +15,8 @@ This course is designed to provide a hands-on, weekly introduction to key ML con
 - [Week 01: Machine Learning Landscape](lectures/w01_ml_landscape/)
 - [Week 02: Training Machine Learning Algorithms for Classification](lectures/w02_simple_ml_classification/)
 - [Week 03: Logistic Regression and Decision Trees](lectures/w03_logistic_and_trees/)
+- [Week 04: Sentiment Analysis](lectures/w04_sentiment_analysis/)
+- [Week 05: Multilayer Perceptron](lectures/w05_multilayer_perceptron/)
 - ...
 
 ## Assignments
